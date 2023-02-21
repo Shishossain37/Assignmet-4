@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        .container {
+            margin: 10px auto;
+        }
+    </style>
+    <title>Calculator API</title>
+</head>
+
+<body>
+    <h1>Calculator API</h1>
+    <div>
+        <form action="/add" method="post" class="container">
+            <input id="add1" type="text" name="add1" placeholder="fNumber">
+            <input id="add2" type="text" name="add2" placeholder="sNumber">
+            <input type="submit" value="Add">
+        </form>
+        <form action="/sub" method="post" class="container">
+            <input id="sub1" type="text" name="sub1" placeholder="fNumber">
+            <input id="sub2" type="text" name="sub2" placeholder="sNumber">
+            <input type="submit" value="Sub">
+        </form>
+        <form action="/div" method="post" class="container">
+            <input id="div1" type="text" name="div1" placeholder="fNumber">
+            <input id="div2" type="text" name="div2" placeholder="sNumber">
+            <input type="submit" value="Div">
+        </form>
+        <form action="/mul" method="post" class="container">
+            <input id="mul1" type="text" name="mul1" placeholder="fNumber">
+            <input id="mul20" type="text" name="mul2" placeholder="sdNumber">
+            <input type="submit" value="Mul">
+        </form>
+    </div>
+</body>
+
+</html>
